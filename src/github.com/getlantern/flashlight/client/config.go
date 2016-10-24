@@ -7,16 +7,13 @@ import (
 )
 
 var (
-	chainedDialTimeout = 30 * time.Second
+	chainedDialTimeout = 10 * time.Second
 )
 
 // ClientConfig captures configuration information for a Client
 type ClientConfig struct {
 	// MinQOS: (optional) the minimum QOS to require from proxies.
 	MinQOS int
-
-	// Unique identifier for this device
-	DeviceID string
 
 	// List of CONNECT ports that are proxied via the remote proxy. Other ports
 	// will be handled with direct connections.

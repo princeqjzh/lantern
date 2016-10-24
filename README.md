@@ -1,5 +1,7 @@
 # lantern [![Travis CI Status](https://travis-ci.org/getlantern/lantern.svg?branch=devel)](https://travis-ci.org/getlantern/lantern)&nbsp;[![Coverage Status](https://coveralls.io/repos/getlantern/lantern/badge.png?branch=devel)](https://coveralls.io/r/getlantern/lantern)&nbsp;[![ProjectTalk](http://www.projecttalk.io/images/gh_badge-3e578a9f437f841de7446bab9a49d103.svg?vsn=d)] (http://www.projecttalk.io/boards/getlantern%2Flantern?utm_campaign=gh-badge&utm_medium=badge&utm_source=github)
 
+## [🔴蓝灯(Lantern)最新版下载点这里🔴](https://github.com/getlantern/forum#蓝灯lantern最新版本下载)
+
 **If you're looking for Lantern installers, you can find all of them at the following links:**
 - [Android](https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer-beta.apk)
 - [Windows XP SP 3 and above](https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer-beta.exe)
@@ -10,16 +12,18 @@
 
 **If you're looking for help, please visit below user forums:**
 
-| [English](https://groups.google.com/forum/#!forum/lantern-users-en) | [中文](https://groups.google.com/forum/#!forum/lantern-users-zh) | [فارسی](https://groups.google.com/forum/#!forum/lantern-users-fa) | [français](https://groups.google.com/forum/#!forum/lantern-users-fr)
+| [English](https://groups.google.com/forum/#!forum/lantern-users-en) | [中文](https://github.com/getlantern/forum) | [فارسی](https://groups.google.com/forum/#!forum/lantern-users-fa) | [français](https://groups.google.com/forum/#!forum/lantern-users-fr)
 
 ## Building Lantern
 
 ### Prerequisites
 
+* [Custom fork of Go](https://github.com/getlantern/go/tree/lantern) is
+  currently required. We'll eventually switch to Go 1.7 which supports what we
+  need due to [this](https://github.com/golang/go/issues/13998).
 * An OSX or Linux host. Building on Windows is only partially supported with
   the help of [Cygwin](https://www.cygwin.com/).
 * [Git](https://git-scm.com/downloads) - `brew install git`, `apt-get install git`, etc
-* [Go 1.6 or higher](https://golang.org/dl/).
 * [GNU Make](https://www.gnu.org/software/make/)
 * [Nodejs & NPM](https://nodejs.org/en/download/package-manager/)
 * GNU C Library (linux only) - `apt-get install libc6-dev-i386`, etc
